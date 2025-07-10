@@ -1,24 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta charset="UTF-8">
-  <title>100 Days of Code – Omar's Challenges</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>100 Days of Code – Omar's Challenge</title>
   <style>
-    body { font-family: Arial; background: #f4f4f4; padding: 20px; }
-    h1 { color: #333; }
-    ul { list-style: none; padding: 0; }
-    li { margin-bottom: 15px; }
-    a { text-decoration: none; color: #0077cc; font-weight: bold; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to bottom right, #f0f8ff, #e6f2ff);
+      padding: 40px;
+      color: #333;
+    }
+    h1 {
+      text-align: center;
+      font-size: 2.5rem;
+      color: #004080;
+      margin-bottom: 40px;
+    }
+    ul {
+      max-width: 700px;
+      margin: auto;
+      padding: 0;
+      list-style: none;
+    }
+    li {
+      background: #fff;
+      padding: 15px 20px;
+      margin-bottom: 15px;
+      border-left: 6px solid #007acc;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      transition: 0.3s;
+    }
+    li:hover {
+      transform: translateX(5px);
+    }
+    a {
+      color: #007acc;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .done::before {
+      content: '✅ ';
+    }
+    .soon::before {
+      content: '🔜 ';
+    }
   </style>
 </head>
 <body>
+
   <h1>🚀 100 Days of Code – Omar</h1>
   <ul>
-    <li>✅ Day 1 - <a href="https://omarAbubakrWd.github.io/qr-code-component/" target="_blank">QR Code Component</a></li>
-    <li>🔜 Day 2 - <a href="#">Coming soon...</a></li>
-    <li>🔜 Day 3 - <a href="#">Coming soon...</a></li>
+    <li class="done">Day 1 - <a href="https://omarAbubakrWd.github.io/qr-code-component/" target="_blank">QR Code Component</a></li>
+    <li class="soon">Day 2 - <a href="#">Coming soon...</a></li>
+    <li class="soon">Day 3 - <a href="#">Coming soon...</a></li>
+    <li class="soon">Day 4 - <a href="#">Coming soon...</a></li>
+    <li class="soon">Day 5 - <a href="#">Coming soon...</a></li>
   </ul>
+
 </body>
 </html>
